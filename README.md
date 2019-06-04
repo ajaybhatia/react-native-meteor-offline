@@ -6,7 +6,7 @@ Important: V 2.0 implements a new class-based API. The V 1 api will be deprecate
 Access the 1.X API here: https://github.com/DesignmanIO/react-native-meteor-redux/tree/1.1.1
 
 ## Install
-`npm install react-native-meteor-redux`
+`npm install @ajaybhatia/react-native-meteor-redux`
 
 ## Use
 ### Initialize
