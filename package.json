@@ -1,6 +1,6 @@
 {
-  "name": "react-native-meteor-redux",
-  "version": "2.2.6",
+  "name": "@ajaybhatia/react-native-meteor-redux",
+  "version": "2.3.0",
   "description": "Link react-native-meteor to redux",
   "main": "connectMeteorRedux.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DesignmanIO/react-native-meteor-redux.git"
+    "url": "git+https://github.com/ajaybhatia/react-native-meteor-redux.git"
   },
   "keywords": [
     "react",
@@ -25,15 +25,16 @@
   "author": "Designman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DesignmanIO/react-native-meteor-redux/issues"
+    "url": "https://github.com/ajaybhatia/react-native-meteor-redux/issues"
   },
-  "homepage": "https://github.com/DesignmanIO/react-native-meteor-redux#readme",
+  "homepage": "https://github.com/ajaybhatia/react-native-meteor-redux#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
+    "@react-native-community/async-storage": "^1.4.2",
+    "events": "^3.0.0",
+    "lodash": "^4.17.11",
     "next-frame": "^0.2.3",
-    "react-native-meteor": "^1.0.3",
-    "redux": "^3.6.0",
-    "redux-persist": "^4.0.1",
-    "events": "^1.1.1"
+    "@ajaybhatia/react-native-meteor": "^1.5.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0"
   }
 }
