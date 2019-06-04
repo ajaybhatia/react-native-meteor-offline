@@ -1,7 +1,7 @@
 /**
  * Created by Julian on 12/30/16.
  */
-import Meteor, { getData } from 'react-native-meteor';
+import Meteor, { getData } from '@ajaybhatia/react-native-meteor';
 import { createStore, combineReducers } from 'redux';
 import AsyncStorage from '@react-native-community/async-storage';
 import _ from 'lodash';
