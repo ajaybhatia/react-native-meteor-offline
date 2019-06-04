@@ -3,7 +3,7 @@
 This package uses redux and redux-persist behind the scenes to maintain offline versions of your meteor data (compatible with react-native-meteor).
 
 Important: V 2.0 implements a new class-based API. The V 1 api will be deprecated at some point. I've also renamed this react-native-meteor-offline, since that's more reflective of what it is.
-Access the 1.X API here: https://github.com/DesignmanIO/react-native-meteor-redux/tree/1.1.1
+Access the 1.X API here: https://github.com/ajaybhatia/react-native-meteor-redux/tree/1.1.1
 
 ## Install
 `npm install @ajaybhatia/react-native-meteor-redux`
