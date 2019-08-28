@@ -1,17 +1,14 @@
-# react-native-meteor-offline
+# @ajaybhatia/react-native-meteor-offline
 
 This package uses redux and redux-persist behind the scenes to maintain offline versions of your meteor data (compatible with react-native-meteor).
 
-Important: V 2.0 implements a new class-based API. The V 1 api will be deprecated at some point. I've also renamed this react-native-meteor-offline, since that's more reflective of what it is.
-Access the 1.X API here: https://github.com/DesignmanIO/react-native-meteor-redux/tree/1.1.1
-
 ## Install
-`npm install react-native-meteor-redux`
+`npm install @ajaybhatia/react-native-meteor-redux`
 
 ## Use
 ### Initialize
 ````javascript
-import MeteorOffline from 'react-native-meteor-redux';
+import MeteorOffline from '@ajaybhatia/react-native-meteor-redux';
 
 // initialize a MeteorOffline instance with options, currently just takes debounce
 // Do this at/near the top level of your app
@@ -25,7 +22,7 @@ export {GroundedMeteor};
 
 ````javascript
 import {GroundedMeteor} from '../index';
-import Meteor, {createContainer} from 'react-native-meteor';
+import Meteor, {createContainer} from '@ajaybhatia/react-native-meteor';
 
 const component = (props) => {
   const {docs} = props;
