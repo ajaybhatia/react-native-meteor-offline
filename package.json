@@ -1,6 +1,6 @@
 {
   "name": "@ajaybhatia/react-native-meteor-redux",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Link react-native-meteor to redux",
   "main": "connectMeteorRedux.js",
   "scripts": {
