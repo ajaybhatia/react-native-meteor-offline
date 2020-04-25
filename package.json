@@ -1,6 +1,6 @@
 {
   "name": "@ajaybhatia/react-native-meteor-redux",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "description": "Link react-native-meteor to redux",
   "main": "connectMeteorRedux.js",
   "scripts": {
@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/ajaybhatia/react-native-meteor-redux#readme",
   "dependencies": {
-    "@react-native-community/async-storage": "^1.6.3",
-    "events": "^3.0.0",
+    "@react-native-community/async-storage": "^1.9.0",
+    "events": "^3.1.0",
     "lodash": "^4.17.15",
     "next-frame": "^0.2.3",
-    "@ajaybhatia/react-native-meteor": "^1.6.1",
-    "redux": "^4.0.4",
-    "redux-persist": "5.10.0"
+    "@ajaybhatia/react-native-meteor": "^1.8.2",
+    "redux": "^4.0.5",
+    "redux-persist": "6.0.0"
   }
 }
